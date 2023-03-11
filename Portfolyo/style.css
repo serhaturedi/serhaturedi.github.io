@@ -1,0 +1,96 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url("https://images6.alphacoders.com/100/thumb-1920-1006239.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-right: 30px;
+}
+.menuYazi:hover{
+    color: black;
+}
+.baslik{
+    font-size: 50px;
+}
+.section2{
+    position: relative;
+    bottom: 0;
+}
+fieldset{
+    border: 1px solid gray;
+    padding: 7px;
+}
+.space{
+    width: 100%;
+    height: 50vh;
+}
+.section4{
+    margin-top: 70px;
+}
+.message{
+    color: gray;
+}
+input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+button{
+    width: 30%;
+    height: 50px;
+}
+.send{
+    width: 20px;
+    height: 20px;
+}
+.location{
+    width: 50px;
+    height: 50px;
+}
+.section5{
+    margin-top: 70px;
+}
+.telephone{
+    width: 50px;
+    height: 50px;
+}
+.mail{
+    width: 50px;
+    height: 50px;
+}
+.section6{
+    margin-top: 70px;
+}
+.bi{
+    color: gray;
+}
+.bi-facebook:hover{
+    color: blue;
+}
+.bi-twitter:hover{
+    color: blue;
+}
+.bi-instagram:hover{
+    color: deeppink;
+}
+.bi-youtube:hover{
+    color: red;
+}
