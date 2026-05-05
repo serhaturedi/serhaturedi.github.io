@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serhat Türedi | Full-Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--text-main);
+            margin-bottom: 10px;
+        }
+        header p {
+            color: var(--accent);
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        .social-links {
+            margin-top: 15px;
+        }
+        .social-links a {
+            color: var(--text-main);
+            font-size: 1.5rem;
+            margin: 0 10px;
+            transition: color 0.3s;
+            text-decoration: none;
+        }
+        .social-links a:hover { color: var(--accent); }
+        
+        section {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            color: var(--text-main);
+        }
+        p.about-text { color: var(--text-muted); }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } }
+        
+        .item h3 { font-size: 1.1rem; color: var(--accent); }
+        .item span { font-size: 0.85rem; color: var(--text-muted); display: block; margin-bottom: 5px; }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background: var(--bg-color);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: var(--accent);
+            border: 1px solid #334155;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Serhat Türedi</h1>
+        <p>Full-Stack Developer</p>
+        <div class="social-links">
+            <a href="https://github.com/serhaturedi" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:turediserhat@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </header>
+
+    <section id="hakkimda">
+        <h2><i class="fas fa-user"></i> Hakkımda</h2>
+        <p class="about-text">Bilgisayar Teknolojisi mezunuyum ve yazılım geliştirme alanında kendimi özellikle full-stack developer olarak geliştirmekteyim. Takım çalışmasına uyum sağlayabilen, problem çözme becerisi yüksek ve öğrenmeye açık bir yapıya sahibim. Hedefim, kullanıcı odaklı, sürdürülebilir ve yenilikçi yazılım projelerinde aktif rol alarak yazılım dünyasında değer üretmek.</p>
+    </section>
+
+    <div class="grid">
+        <section id="egitim">
+            <h2><i class="fas fa-graduation-cap"></i> Eğitim Bilgileri</h2>
+            <div class="item">
+                <h3>İstinye Üniversitesi</h3>
+                <span>Haziran 2025 | Bilgisayar Teknolojisi</span>
+            </div>
+        </section>
+
+        <section id="deneyim">
+            <h2><i class="fas fa-briefcase"></i> İş Deneyimi</h2>
+            <div class="item">
+                <h3>Neos Yazılım</h3>
+                <span>Mayıs 2023 - Haziran 2023 | Stajyer</span>
+                <p class="about-text" style="font-size: 0.9rem;">Ortak bir grup ile LMS (Learning Management System) projesi hazırladık. Front-end ve back-end süreçlerinde pratik tecrübeler kazandım.</p>
+            </div>
+        </section>
+    </div>
+
+    <section id="sertifikalar">
+        <h2><i class="fas fa-award"></i> Kurs ve Sertifikalar</h2>
+        <div class="grid">
+            <div class="item">
+                <h3>C1 İngilizce Sertifikası</h3>
+                <span>Mayıs 2024 | English Time</span>
+            </div>
+            <div class="item">
+                <h3>ICCW Yazılım Uzmanlığı</h3>
+                <span>Nisan 2023 | Neos Yazılım</span>
+            </div>
+            <div class="item">
+                <h3>Yazılım Uzmanlığı Sertifikası</h3>
+                <span>Nisan 2023 | Mudanya Üniversitesi</span>
+            </div>
+            <div class="item">
+                <h3>Katılım Sertifikası</h3>
+                <span>Nisan 2023 | Neos Yazılım</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="yetenekler">
+        <h2><i class="fas fa-code"></i> Teknolojik Yetenekler</h2>
+        <div class="skills-container">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Django</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Serhat Türedi. Tüm Hakları Saklıdır.</p>
+    </footer>
+</div>
+
+</body>
+</html>
